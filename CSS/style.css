@@ -1,0 +1,48 @@
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: 'Kiwi Maru', serif;
+}
+.cont {
+    background-image: url('/CSS/images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: overlay;
+}
+.form-inlines {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 60%;
+    border-radius: 5px;
+}
+.navbar-toggler {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.form-controls {
+    width: 100%;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.fap {
+    color: rgba(255, 255, 255, 0.8);
+}
+::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+.btn {
+    border-radius: 20px;
+}
+.butt2 {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.cont1 {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+
+@media only screen and (max-width: 768px){
+    a {
+        display: block;
+    }
+}
