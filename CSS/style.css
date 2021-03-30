@@ -6,6 +6,7 @@
 .cont {
     background-image: url('/CSS/images/bg.jpg');
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.2);
     background-blend-mode: overlay;
