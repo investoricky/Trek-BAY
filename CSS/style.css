@@ -43,10 +43,16 @@
 }
 
 @media only screen and (max-width: 768px){
+    .container-fluid {
+        background-image: url('/CSS/images/bg.jpg');
+    }
     .contt {
         background-color: rgba(255, 255, 255, 0.2);
-        background-attachment: fixed;
+        background-blend-mode: overlay;
         border-radius: 20px;
         padding: 10px !important;
+    }
+    .cont1 h1 {
+        font-size: 30px;
     }
 }
