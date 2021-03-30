@@ -51,4 +51,7 @@
     .cont1 h1 {
         font-size: 30px;
     }
+    .ml-5 {
+        margin-left: 0 !important;
+    }
 }
